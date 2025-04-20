@@ -1,0 +1,9 @@
+//////////////////////////////////////////////////////////////
+// Interface for player move selection
+//////////////////////////////////////////////////
+
+import java.util.List;
+
+public interface PlayerInterface {
+    String chooseMove(List<Move> possibleMoves);
+}
